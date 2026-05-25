@@ -28,7 +28,7 @@ I work at the intersection of **data engineering and LLMs** — turning messy en
 `Milvus` · `Doris` · `ClickHouse` · `Hive` · `Iceberg` · `Spark` · `Flink`
 
 **Languages & Tools**
-`Python` · `SQL` · `Pydantic` · `pytest` · `Docker` · `Git` · `Linux`
+`Python` · `SQL` · `Java` · `Docker` · `Git` · `Linux`
 
 ---
 
