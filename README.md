@@ -36,7 +36,6 @@ I work at the intersection of **data engineering and LLMs** — turning messy en
 
 | Project | Stack | Highlights |
 |---|---|---|
-| **Medical RAG System** | Milvus, ColBERT, ChatGLM3 | Tri-modal retrieval, RAGAS-driven iteration, LoRA fine-tuning on V100 |
 | **Legal RAG System** | FastAPI, ChromaDB, bge-zh, Qwen3 | Statute-aware article-level chunking, hybrid BM25+dense retrieval, query rewriting, cited answers with confidence scoring |
 | **Positive Chinese Chatbot** | PyTorch, ChatGLM3-6B, LoRA, Gradio | LoRA fine-tuning on Douban "夸夸" corpus for encouraging replies, Trie-based dirty-word filter with variant/homophone detection, multi-strategy decoding with BLEU/ROUGE/diversity evaluation |
 
