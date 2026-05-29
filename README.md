@@ -36,6 +36,7 @@ I work at the intersection of **data engineering and LLMs** — turning messy en
 
 | Project | Stack | Highlights |
 |---|---|---|
+| **Smart Crib Guard** | PyTorch, Qwen2.5-VL-7B, PEFT (LoRA), Transformers, OpenCV | 9-class baby behavior recognition via Qwen2.5-VL-7B LoRA fine-tuning (Loss: 0.0175), automated video frame extraction + multi-strategy augmentation (brightness/rotation/crop/flip), JSON-standardized annotation pipeline, real-time inference with confusion matrix generation, edge-cloud integrated monitoring |
 | **Legal RAG System** | FastAPI, ChromaDB, bge-zh, Qwen3 | Statute-aware article-level chunking, hybrid BM25+dense retrieval, query rewriting, cited answers with confidence scoring |
 | **Positive Chinese Chatbot** | PyTorch, ChatGLM3-6B, LoRA, Gradio | LoRA fine-tuning on Douban "夸夸" corpus for encouraging replies, Trie-based dirty-word filter with variant/homophone detection, multi-strategy decoding with BLEU/ROUGE/diversity evaluation |
 | **Chinese Sentiment Classifier** | PyTorch, BERT-base-Chinese, Transformers, ChnSentiCorp | Selective last-N layer unfreezing on BERT with weighted sampling and jieba synonym augmentation, AMP + warmup-linear LR + early stopping, MC-dropout uncertainty and attention-based explainability, 94.5% Acc / AUC 0.983 |
